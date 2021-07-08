@@ -34,7 +34,7 @@ class TRedisDatabase extends TAbstractDatabase {
         var client = this._driver.createClient()
 
         client.on( 'error', function ( err ) {
-            console.log( 'Error ' + err )
+            this.logger.error( err )
         } )
 
         client.set( 'string key', 'string val', this._driver.print )
@@ -42,10 +42,10 @@ class TRedisDatabase extends TAbstractDatabase {
         client.hset( [ 'hash key', 'hashtest 2', 'some other value' ], this._driver.print )
 
         client.hkeys( 'hash key', function ( err, replies ) {
-            console.log( replies.length + ' replies:' )
+            this.logger.log( replies.length + ' replies:' )
 
             replies.forEach( function ( reply, i ) {
-                console.log( '    ' + i + ': ' + reply )
+                this.logger.log( '    ' + i + ': ' + reply )
             } )
 
             client.quit()
