@@ -1,6 +1,6 @@
 {
     "name": "itee-redis",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The Redis database implementation for Itee projects",
     "keywords": [
         "itee",
