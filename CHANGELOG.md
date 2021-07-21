@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Itee/itee-redis/compare/v1.0.2...v1.0.3) (2021-07-21)
+
+
+### Bug Fixes
+
+* **readme:** add simple readme content ([80aa710](https://github.com/Itee/itee-redis/commit/80aa7106a443550f9729d89b1aa5705839b275a8))
+
 ## [1.0.2](https://github.com/Itee/itee-redis/compare/v1.0.1...v1.0.2) (2021-07-08)
 
 

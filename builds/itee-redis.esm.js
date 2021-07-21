@@ -1,4 +1,4 @@
-console.log('Itee.Database.Redis v1.0.2 - EsModule')
+console.log('Itee.Database.Redis v1.0.3 - EsModule')
 import * as RedisDriver from 'redis';
 import { TAbstractDatabase } from 'itee-database';
 
